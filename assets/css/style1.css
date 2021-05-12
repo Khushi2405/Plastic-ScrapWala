@@ -1,0 +1,66 @@
+.bg-blue {
+    background-color: #29B9F2;
+}
+
+.bg-light-blue{
+    background-color: #6fd0f6;
+}
+
+.height-1 {
+     height : 150px;
+}
+
+.height-2 {
+    height : 300px;
+}
+
+.height-3 {
+    height : 450px;
+}
+
+.height-4 {
+    height : 600px;
+}
+
+.width-1{
+    width : 100%;
+}
+
+.width-2{
+    width : 50%;
+}
+
+.width-3{
+    width : 1920px;
+}
+
+.div-mid-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.header-font h1 {
+    line-height: 1.25em;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: "Quicksand", Arial,Helvetica,sans-serif;
+}
+
+.para-font p{
+    line-height: 1.67em;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.service-font h2{
+    text-align: center;
+    line-height: 1.35em;
+    font-size: 50px;
+    font-weight: bold;
+    color : #fff;
+}
+
