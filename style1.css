@@ -1,0 +1,207 @@
+.bg-blue {
+    background-color: #29B9F2;
+}
+
+.bg-light-blue{
+    background-color: #6fd0f6;
+}
+
+.height-1 {
+     height : 150px;
+}
+
+.height-2 {
+    height : 300px;
+}
+
+.height-3 {
+    height : 450px;
+}
+
+.height-4 {
+    height : 600px;
+}
+
+.width-1{
+    width : 100%;
+}
+
+.width-2{
+    width : 50%;
+}
+
+.width-3{
+    width : 1920px;
+}
+
+.div-mid-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.header-font h1 {
+    line-height: 1.25em;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: "Lato", Arial,Helvetica,sans-serif;
+    text-align: left;
+}
+
+.para-font p{
+    line-height: 1.67em;
+    letter-spacing: 2px;
+    font-size: 0.5em;
+    font-family: "Raleway",Helvetica,sans-serif;
+    text-align: left;
+}
+
+.service-font h2{
+    text-align: center;
+    line-height: 1.35em;
+    font-size: 50px;
+    font-weight: bold;
+    color : #fff;
+}
+
+.outer_collapse {
+    line-height: 1.25em;
+    font-size: 1.6em;
+    font-weight:500;
+    font-family: "Lato", sans-serif; 
+}
+
+.mid_collapse {
+    line-height: 1.2em;
+    font-size: 1.4em;
+    font-family: "Quicksand", Arial,Helvetica,sans-serif; 
+}
+
+.inner_collapse {
+    line-height: 1.67em;
+    font-size: 1.2em;
+    font-family: "Raleway", sans-serif;
+}
+
+.outer_collapse:hover{
+    color : #29B9F2;
+}
+
+.mid_collapse:hover{
+    color : #29B9F2;
+}
+
+td{
+    border-top: 3px solid #ffffff; 
+    border-bottom: 3px solid #ffffff; 
+    border-left: 3px solid #ffffff; 
+    border-right: 3px solid #ffffff;
+    background-color: #DEEBF7;
+    text-align: center;
+}
+
+.white-bg{
+    background-color: #ffffff;
+}
+
+.tut-grid {
+    margin-bottom: 25px;
+  }
+  .tut-grid .tut-box--one > a {
+    padding: 35px 40px 49px;
+    height: 250px;
+    width: 200px;
+    box-shadow: 0 4px 20px rgba(51, 51, 51, 0.05);
+    background: #ffffff;
+    border-radius: 5px;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+  .tut-grid .tut-box--one > a:before {
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    border-radius: 5px;
+    background: #29B9F2;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .tut-grid .tut-box--one > a:hover {
+    transform: translateY(-5px);
+  }
+  .tut-grid .tut-box--one > a:hover:before {
+    opacity: .7;
+    visibility: visible;
+  }
+  .tut-grid .tut-box--one > a:hover .heading, .service-grid .ht-service-box--one > a:hover .service_text {
+    color: #ffffff;
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .tut-grid .tut-box--one > a {
+        padding: 20px 20px 20px;
+        height: 200px;
+        width: 140px;
+    }
+    .ele{
+        height:50px;
+        width:50px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .tut-grid .tut-box--one > a {
+        padding: 20px 20px 20px;
+        height: 120px;
+        width: 140px;
+    }
+    .ele{
+        height:50px;
+        width:50px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .tut-grid .tut-box--one > a {
+        padding: 20px 20px 20px;
+        height: 120px;
+        width: 140px;
+    }
+    .ele{
+        height:50px;
+        width:50px;
+    }
+  }
+  @media only screen and (max-width: 479px) {
+    .tut-grid .tut-box--one > a {
+        padding: 20px 20px 20px;
+        height: 120px;
+        width: 140px;
+    }
+    .ele{
+        height:50px;
+        width:50px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .tut-grid .tut-box--one > a {
+        padding: 15px 15px 15px;
+        height: 120px;
+        width: 140px;
+    }
+    .ele{
+        height:40px;
+        width:40px;
+    }
+    #ele-text{
+        font-size : 15px;
+    }
+  }
+
