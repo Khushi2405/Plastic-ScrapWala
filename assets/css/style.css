@@ -132,7 +132,7 @@ a:focus {
 
 a:hover {
   text-decoration: none;
-  color: #29B9F2;
+  color: #000000;
 }
 
 button, input[type="submit"] {
@@ -1375,6 +1375,9 @@ body.box-body {
   }
 }
 .white-text h1{
+  color: #fff;
+}
+.white-text h3{
   color: #fff;
 }
 .hero-slider .slider-text-info.white-text h1 {
