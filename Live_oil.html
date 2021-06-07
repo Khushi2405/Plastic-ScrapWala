@@ -37,6 +37,19 @@
         .btn-primary {
             border-radius: 20px;
         }
+        .goog-logo-link { display:none !important;}
+        .goog-te-gadget {color: transparent !important;}
+        .goog-te-gadget .goog-te-combo {color: rgb(12, 12, 14) !important;}
+        .goog-te-banner-frame.skiptranslate { display: none !important;} 
+        body { top: 0px !important; }
+        #goog-gt-tt{display: none !important; top: 0px !important; } 
+        .goog-tooltip skiptranslate{display: none !important; top: 0px !important; } 
+        .activity-root { display: hide !important;} 
+        .status-message { display: hide !important;}
+        .started-activity-container { display: hide !important;}
+        .tab{border: 1px solid rgb(193, 226, 241);}
+        td{padding: 10px;border-right: 1px solid rgb(193,226,241) !important;}
+        tr{border-right: 1px solid rgb(193,226,241) !important;}
     </style>
 </head>
 
@@ -94,6 +107,8 @@
 
         <!-- Hero Slider start -->
         <div class="hero-slider hero-slider-bg-1">
+                        <div id="google_translate_element"  style="background:transparent; border:none;text-align:center;text-decoration:none;font-size:16px;position:absolute;margin:auto;color:transparent;right:10px ;z-index:10 ;"></div>
+
             <div class="single-slide" style="background-image: url(assets/images/slider/slider-04.png)">
                 <div class="container">
                     <div class="row align-items-center">
@@ -340,6 +355,19 @@
     <script src="assets/js/ajax-mail.js"></script>
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<script type="text/javascript">
+
+    var duplicate_google_translate_counter = 0;//this stops google adding button multiple times
+
+    function googleTranslateElementInit() {
+    if (duplicate_google_translate_counter == 0) {
+          new google.translate.TranslateElement({pageLanguage: 'en',includedLanguages:'en,hi,bn,mr,ur,ta,kn,ml,or,gu'}, 'google_translate_element');
+   }
+   duplicate_google_translate_counter++;}
+
+</script>
 </body>
 
 
