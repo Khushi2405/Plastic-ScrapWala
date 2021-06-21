@@ -3549,5 +3549,8 @@ input:focus {
   color: #ffffff;
   border: 2px solid #29B9F2;
 }
-
+p.my-5 {
+font-size: large !important;
+font-weight: bold !important;
+}
 /*# sourceMappingURL=style.css.map */

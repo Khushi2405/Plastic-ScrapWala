@@ -73,7 +73,23 @@
                                 <nav class="main-navigation text-white">
                                     <ul>
                                         <li class="active"><a href="#slider">Home</a></li>
-                                        <li><a href="#feature">Feature</a></li>
+                                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Features</button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Link 1</a>
+                                            <a class="dropdown-item" href="#">Link 2</a>
+                                            <a class="dropdown-item" href="#">Link 3</a>
+                                          </div>
+                                        <!--<div class="dropdown">
+                                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                              Dropdown button
+                                            </button>
+                                            <div class="dropdown-menu">
+                                              <a class="dropdown-item" href="#">Link 1</a>
+                                              <a class="dropdown-item" href="#">Link 2</a>
+                                              <a class="dropdown-item" href="#">Link 3</a>
+                                            </div>
+                                        </div>-->
+                                        
                                         <li><a href="#about">About Us</a></li>
                                         <li><a href="#pricing">Pricing</a></li>
 
@@ -103,7 +119,7 @@
 
         <!-- Hero Slider start -->
         <div class="hero-slider hero-slider-bg-1" id="slider">
-            <div id="google_translate_element"  style="background:transparent; border:none;text-align:center;text-decoration:none;font-size:16px;position:absolute;margin:auto;color:transparent;right:10px ;z-index:10 ;"></div>
+            <div type="button" id="google_translate_element"  style="background:; border:black;text-align:center;text-decoration:none;font-size:16px;position:absolute;color:transparent;right:10px ;z-index:10 ;width:auto;max-height:5px;"></div>
             <div class="single-slide" style="background-image: url(assets/images/slider/slider-04.png)">
                 <!-- Hero Content One Start -->
                 <div class="hero-content-five container">
